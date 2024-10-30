@@ -1,0 +1,183 @@
+/* All Css Codes here */
+.limecallwrap{
+    padding: 30px !important;
+    background: #fff !important;
+    margin: 30px !important;
+    border: 1px solid #eee !important;
+    overflow: hidden !important;
+}
+.limecallwrap .plugin-title{
+    color: #337D3E !important;
+    text-transform: uppercase !important;
+    margin-bottom: 40px !important;
+}
+.limecallwrap p{
+    display: block !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+.limecallwrap p.find-limecall{
+    margin-bottom: 60px !important;
+}
+.limecallwrap p.find-limecall img{
+    width: 35px !important;
+    height: 35px !important;
+    float: left !important;
+    margin-right: 15px !important;
+}
+.limecallwrap p.find-limecall span{
+    color: #394F5A !important;
+    font-size: 22px !important;
+    float: left !important;
+}
+.limecallwrap p.find-limecall span a{
+    color: #29ABE2 !important;
+    text-decoration: none !important;
+}
+.limecallwrap p.settings{
+    margin-bottom: 40px !important;
+}
+.limecallwrap p.settings img{
+    width: 30px !important;
+    height: 30px !important;
+    float: left !important;
+    margin-right: 15px !important;
+    margin-top: 3px !important;
+    margin-left: 3px !important;
+}
+.limecallwrap p.settings span{
+    color: #337D3E !important;
+    font-size: 22px !important;
+    float: left !important;
+}
+.limecallwrap div.field{
+    display: inline-block !important;
+    padding-left: 50px !important;
+}
+.limecallwrap div.field span{
+    padding-left: 15px !important;
+    color: #5E747C !important;
+    font-size: 15px !important;
+}
+.limecallwrap div.field label{
+    display: block !important;
+    background: #F2F2F2 !important;
+    width: 17px !important;
+    height: 17px !important;
+    float: left !important;
+    border: 1px solid #eee !important;
+    position: relative !important;
+}
+.limecallwrap div.field label:after{
+    content: "✔" !important;
+    font-size: 20px !important;
+    color: #337D3E !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -moz-transform: translate(-50%,-50%) !important;
+    -o-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.limecallwrap div.field input:checked + label:after{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.limecallwrap div.field input{
+    display: none !important;
+}
+.limecallwrap div.field-textarea{
+    margin-top: 80px !important;
+}
+.limecallwrap div.field-textarea h2{
+    margin-bottom: 40px !important;
+    padding-left: 45px !important;
+}
+.limecallwrap div.field-textarea h2 img{
+    float: left !important;
+    margin-left: 8px !important;
+    width: 15px !important;
+    height: 13px !important;
+    margin-top: 5px !important;
+}
+.limecallwrap div.field-textarea h2 span{
+    padding-left: 35px !important;
+    font-size: 14px !important;
+    color: #337D3E !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+.limecallwrap div.field-textarea textarea{
+    margin-left: 45px !important;
+    width: 60% !important;
+    border-radius: 40px !important;
+    padding: 15px !important;
+    border: 1px solid #B8E0CD !important;
+    resize: none !important;
+    height: 100px !important;
+}
+.limecallwrap .button-primary{
+    width: 200px !important;
+    height: 50px !important;
+    margin-left: 45px !important;
+    background: none !important;
+    color: #29ABE2 !important;
+    font-size: 18px !important;
+    text-shadow: none !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-radius: 40px !important;
+    border: 1px solid #29ABE2 !important;
+    box-shadow: none !important;
+    transition: all ease-in-out 0.3s !important;
+    -webkit-transition: all ease-in-out 0.3s !important;
+    -moz-transition: all ease-in-out 0.3s !important;
+    -o-transition: all ease-in-out 0.3s !important;
+    -ms-transition: all ease-in-out 0.3s !important;
+    line-height: 50px !important;
+}
+p.submit{
+    display: inline-block !important;
+    float: left !important;
+    width: auto !important;
+}
+.limecallwrap a{
+    display: block !important;
+    float: left !important;
+    text-align: center !important;
+    height: 50px !important;
+    line-height: 46px !important !important;
+    float: left !important;
+    border-color: #337D3E !important !important;
+    color: #337D3E !important !important;
+}
+.limecallwrap a:hover,
+.limecallwrap a:focus,
+.limecallwrap a:active{
+    background: #337D3E !important !important;
+    color: #fff !important !important;
+    border: 1px solid #337D3E !important !important;
+}
+.limecallwrap .button-primary:hover,
+.limecallwrap .button-primary:active,
+.limecallwrap .button-primary:focus{
+    background: #29ABE2 !important;
+    color: #fff !important;
+    border: 1px solid #29ABE2 !important;
+    box-shadow: none !important;
+}
+@media (max-width: 991px){
+    .limecallwrap div.field-textarea textarea{
+        width: 90% !important;
+        height: 200px !important;
+    }
+}
+@media (max-width: 700px){
+    .limecallwrap div.field:first-child{
+        margin-bottom: 15px !important;
+    }
+}
